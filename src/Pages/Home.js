@@ -19,7 +19,7 @@ const Home = () => {
             <SimpleGrid columns={3} spacing={10}>
                 {
                     countries?.map(({Country: country, ISO2: code, Slug: slug}) => (
-                        <CountryCard name={country} code={code} slug={slug} />
+                        <CountryCard name={country} code={code} slug={slug} key={code} />
                     ))
                 }
             </SimpleGrid>
