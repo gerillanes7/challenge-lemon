@@ -17,7 +17,7 @@ const CountryCard = ({ name, code, slug }) => {
     }
 
     return (
-        <Box bg='#c06c84' p={4} color='white' className='card-container'>
+        <Box bg='#494d5f' p={4} color='white' className='card-container'>
             <Heading as='h4' size='md'>
                 {name}
             </Heading>
